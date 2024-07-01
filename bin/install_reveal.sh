@@ -16,4 +16,10 @@ git clone https://github.com/hakimel/reveal.js.git presentation_server
 cd presentation_server || exit
 npm install
 
-# We modify the index.html to load the slides from a markdown file
+# - in the ../classes/ folder we have one folder for each class
+# - inside of each of this folders there is a slides.md file
+# - on ../classes/base_revealjs_index.html we have the template index.html file
+# - this template has the words `FILEPATH` which needs to be replaced by the path
+# the slides.md file
+# - we will iterate over each classes folder copy the index.html template inside
+# - and then create a symlink to that index file
