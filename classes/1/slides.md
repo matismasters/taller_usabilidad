@@ -1,11 +1,29 @@
----
-title: Taller de Usabilidad y Accesibilidad Web
-theme: simple
-transition: slide
----
+# Clase 1: Introducción a la Usabilidad y Accesibilidad Web
+
 ## Bienvenidos al Taller de Usabilidad y Accesibilidad Web
 
-### Clase 1: Introducción a la Usabilidad y Accesibilidad Web
+---
+
+## Code test is the most amazing dracula code
+
+```javascript
+const test = () => {
+  console.log("Hello World");
+}
+
+function test2() {
+  console.log("Hello World");
+  return {
+    name: "Test"
+  }
+}
+```
+
+---
+
+## Testeamos unas imagenes re locas
+
+![Diagrama de flujo](/classes/1/diagrama1.png)
 
 ---
 
@@ -158,4 +176,3 @@ transition: slide
 - **Recursos Adicionales:** Recordar a los estudiantes sobre los materiales y recursos adicionales disponibles.
 
 ---
-
