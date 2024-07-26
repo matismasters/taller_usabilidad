@@ -54,7 +54,7 @@ Formulario:
 Validación frontend con los siguientes campos (algunos ellos deben ser requeridos):
 Grupo de campos de selección múltiple (checkbox),
 Grupo de campos de selección excluyente (radio),
-Campos de: texto, contraseña, mail (input), texto multilínea (textarea),
+Campos de: texto, mail (input), texto multilínea (textarea),
 Componente de selección (select)
 Componente para ingreso de fecha
 

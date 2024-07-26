@@ -64,18 +64,6 @@ function test2() {
 - **Correspondencia entre el sistema y el mundo real:** El sistema debe hablar el idioma del usuario.
 - **Control y libertad del usuario:** Los usuarios a menudo eligen funciones del sistema por error y necesitan una "salida de emergencia".
 - **Consistencia y estándares:** Los usuarios no deben tener que preguntarse si diferentes palabras, situaciones o acciones significan lo mismo.
-- **Prevención de errores:** Mejor que mensajes de error, es prevenir que ocurran.
-
----
-
-## Principios Básicos de Usabilidad
-
-- **Reconocimiento en lugar de recuerdo:** Minimizar la carga de la memoria del usuario.
-- **Flexibilidad y eficiencia de uso:** Permitir a los usuarios personalizar acciones frecuentes.
-- **Diseño estético y minimalista:** Los diálogos no deben contener información irrelevante o rara vez necesaria.
-- **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores:** Los mensajes de error deben ser expresados en lenguaje claro y preciso.
-- **Ayuda y documentación:** Aunque es mejor que el sistema sea fácil de usar sin documentación, puede ser necesario proporcionar ayuda y documentación.
-
 
 ---
 
