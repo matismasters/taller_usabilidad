@@ -82,6 +82,6 @@ Los textos son solo un ejemplo y pueden ser modificados a gusto del estudiante.
 ## Fechas de entrega
 
 - Esta le letra se entrega durante la primer clase del taller.
-- El proyecto deberá entregarse antes de las 23:59 del último día de clase del taller.
+- El proyecto deberá entregarse el lunes siguiente a la última clase, antes de las 23:59.
 - Informes de progreso. Todos los viernes se ha de enviar un email al docente con el link al repositorio y un informe de progreso.
 - Defensa: A definir.
