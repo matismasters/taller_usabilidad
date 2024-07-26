@@ -4,29 +4,6 @@
 
 ---
 
-## Code test is the most amazing dracula code
-
-```javascript
-const test = () => {
-  console.log("Hello World");
-}
-
-function test2() {
-  console.log("Hello World");
-  return {
-    name: "Test"
-  }
-}
-```
-
----
-
-## Testeamos unas imagenes re locas
-
-![Diagrama de flujo](/classes/1/diagrama1.png)
-
----
-
 ## Introducción
 
 - Los sitios web profesionales deben cumplir con los estándares de accesibilidad y usabilidad establecidos por la W3C.

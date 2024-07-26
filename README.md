@@ -69,7 +69,6 @@ Horas totales: (24)
 - Los 10 principios de la usabilidad web de Jakob Nielsen.
 - Diseño responsivo
 
-- Herramienta: [Fontawesome](https://fontawesome.com/)
 - Herramienta: [Google Fonts](https://fonts.google.com)
 - Herramienta: [Google Material Icons](https://fonts.google.com/icons)
 - Herramienta: [Chart.js](https://www.chartjs.org/)
