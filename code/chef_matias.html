@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="es" lang="es" xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chef Matías Díaz, Servicios de Catering Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 25px;
+      font-weight: 400;
+      color: var(--color-oscuro);
+      letter-spacing: .01em;
+      overflow-x: hidden !important;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .alex-brush-regular {
+      font-family: "Alex Brush", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    /*
+      Definimos variables para los colores principales
+      - acento
+      - no-seleccionado
+      - semi-transparente
+      - gris
+    */
+
+    :root {
+      --color-oscuro: #333;
+      --color-claro: #f5f5f5;
+      --color-acento: #c5b358;
+      --color-no-seleccionado: #a4a4a4;
+      --color-semi-transparente: rgba(0,0,0,.6);
+      --color-gris: #888;
+    }
+
+    /* Titulo Compuesto */
+    .titulo-compuesto h1,
+    .titulo-compuesto h2 {
+      text-align: center;
+      font-size: 36px;
+      line-height: 1.22em;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      margin-bottom: 20px;
+    }
+
+    .titulo-compuesto h3 {
+      text-align: center;
+      font-size: 36px;
+      font-family: "Alex Brush", cursive;
+      font-weight: 400;
+      color: var(--color-semi-transparente);
+      line-height: 1.22em;
+      margin-top: 20px;
+    }
+
+    .titulo-compuesto hr {
+      width: 6%;
+      border: 1px solid var(--color-acento);
+    }
+
+    /* Generales */
+    .color-secundario {
+      color: var(--color-gris);
+    }
+
+    /* Tarjeta Simple */
+    .tarjeta-simple .card-title {
+      letter-spacing: .1rem;
+      font-weight: 600;
+      margin-top: 2.5rem;
+    }
+
+    .tarjeta-simple img {
+      height: 210px;
+      object-fit: cover;
+    }
+
+    .tarjeta-simple .card-subtitle {
+      font-size: 0.6rem;
+      letter-spacing: .1rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <br/>
+  <div class="container container-lg">
+    <div class="titulo-compuesto">
+      <h1>
+        Catering corporativo
+      </h1>
+      <hr>
+      <h3>
+        Su Empresa Bien Servida
+      </h3>
+    </div>
+  </div>
+  <hr />
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <div class="tarjeta-simple card border border-0 rounded-0 rounded-top-0" style="width: 24rem;">
+          <img src="../assets/watermelon/wrap_veganos.jpg" class="card-img-top" alt="...">
+          <div class="card-body p-0">
+            <h5 class="card-title text-uppercase text-start">Wrap Veggie!</h5>
+            <h6 class="card-subtitle text-uppercase color-secundario mt-1 text-start">#mejorquecarne</h6>
+            <p class="card-text mt-3 color-secundario text-start">
+              Envuélvete en la frescura de nuestro Wrap Veggie, relleno de una combinación vibrante de verduras crujientes, aderezadas con una salsa ligera y aromática. Perfecto para un almuerzo nutritivo que no solo satisface tu hambre sino también tu conciencia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="tarjeta-simple card border border-0 rounded-0" style="width: 24rem;">
+          <img src="../assets/watermelon/chucrut.jpg" class="card-img-top" alt="...">
+          <div class="card-body p-0">
+            <h5 class="card-title text-uppercase text-start">Chucrut</h5>
+            <h6 class="card-subtitle text-uppercase color-secundario mt-1 text-start">#delicatesen</h6>
+            <p class="card-text mt-3 color-secundario text-start">
+              Descubre el sabor profundo y fermentado de nuestro Chucrut casero. Un acompañamiento perfecto que aporta un toque de acidez y probióticos naturales a cualquier plato, haciéndolo no solo delicioso, sino también saludable. Ideal para agregar carácter a tus comidas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="tarjeta-simple card border border-0 rounded-0" style="width: 24rem;">
+          <img src="../assets/watermelon/picada.jpg" class="card-img-top" alt="...">
+          <div class="card-body p-0">
+            <h5 class="card-title text-uppercase text-start">Picada</h5>
+            <h6 class="card-subtitle text-uppercase color-secundario mt-1 text-start">#nuncafalte</h6>
+            <p class="card-text mt-3 color-secundario text-start">
+              Nuestra Picada es la mezcla perfecta de sabores y texturas, seleccionadas meticulosamente para ofrecerte una experiencia culinaria única. Cada bocado es una exploración de lo mejor de los productos locales, ideal para compartir y disfrutar en cualquier reunión.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
